@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jRamen</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/ramen_drawing.jpg" id="header-img"  />
+        <h1 id="ramen_name">jRamen</h1>
+        <nav id="navbar">
+            <div>
+                <a href="#menu" class="navigation"><h2>Menu</h2></a>
+            </div>
+            <div>
+                <a href="#order-form" class="navigation"><h2>Place Your Order</h2></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <div class="foods">
+            <article class="food-menu">
+                <figure>
+                    <img src="img/iekei_ramen.jpg" alt="iekei ramen" class="ramen_img" />
+                    <figcaption><h3>Iekei Ramen (#1)</h3></figcaption>
+                </figure>
+                <p class="description">A rich fusion of tonkotsu (pork bone) and soy sauce broth, Iekei ramen features thick noodles, spinach, nori, and chashu for a bold, comforting bowl.</p>
+                <p class="price">$5.80</p>
+            </article>
+            <article class="food-menu">
+                <figure>
+                    <img src="img/mazesoba.jpg" alt="mazesoba" class="ramen_img" />
+                    <figcaption><h3>Mazesoba (#2)</h3></figcaption>
+                </figure>
+                <p class="description">A brothless ramen packed with umami, Mazesoba combines thick noodles with minced meat, scallions, garlic, and a savory sauce—just mix well before devouring!</p>
+                <p class="price">$5.40</p>
+            </article>
+            <article class="food-menu">
+                <figure>
+                    <img src="img/miso_ramen.webp" alt="miso ramen" class="ramen_img" />
+                    <figcaption><h3>Miso Ramen (#3)</h3></figcaption>
+                </figure>
+                <p class="description">Hearty and flavorful, Miso Ramen boasts a miso-based broth that’s both savory and slightly sweet, topped with corn, butter, bean sprouts, and tender pork.</p>
+                <p class="price">$5.20</p>
+            </article>
+            <article class="food-menu">
+                <figure>
+                    <img src="img/shio_ramen.jpg" alt="shio ramen" class="ramen_img" />
+                    <figcaption><h3>Shio Ramen (#4)</h3></figcaption>
+                </figure>
+                <p class="description">Light and clear, Shio Ramen has a delicate salt-based broth that enhances the flavors of its toppings—often including chicken, fish cake, and crisp vegetables.</p>
+                <p class="price">$5.00</p>
+            </article>
+            <article class="food-menu">
+                <figure>
+                    <img src="img/shoyu-ramen.jpg" alt="shoyu ramen" class="ramen_img" />
+                    <figcaption><h3>Shoyu Ramen (#5)</h3></figcaption>
+                </figure>
+                <p class="description">With a soy sauce-infused broth, Shoyu Ramen is balanced and savory, often garnished with bamboo shoots, soft-boiled egg, and roasted pork slices.</p>
+                <p class="price">$5.00</p>
+            </article>
+            <article class="food-menu">
+                <figure>
+                    <img src="img/tan_tan.webp" alt="tan tan ramen" class="ramen_img" />
+                    <figcaption><h3>Tan Tan Ramen (#6)</h3></figcaption>
+                </figure>
+                <p class="description">Inspired by Sichuan cuisine, Tan Tan Ramen features a spicy sesame broth, ground meat, and chili oil—perfect for those who like a bit of heat in their bowl.</p>
+                <p class="price">$5.60</p>
+            </article>
+            </div>
+        </section>
+        <br /> 
+        <hr />
+        <br />
+        <section id="order-form">
+            <form>
+                <h2>Place Your Order</h2>
+                <label>
+                    <p class="bold">Item Select (#): </p> <br>
+                    <input type="number" min="1" max="6" required /> <br>
+                </label> <br>
+                    <p class="bold">Toppings :</p> <br>
+                    <label><input type="checkbox" />Dried Seaweed ($1)</label> <br>
+                    <label><input type="checkbox" />Seasoned egg ($1.5)</label><br>
+                    <label><input type="checkbox" />Roast Pork ($2)</label><br>
+                    <label><input type="checkbox" />Vegetable ($1)</label><br>
+                    <br>
+                    <p class="bold">Is your ramen spicy?</p> <br>
+                    <label><input type="radio" name="spicy-rate" />Yes</label> <br>
+                    <label><input type="radio" name="spicy-rate" />Average</label> <br>
+                    <label><input type="radio" name="spicy-rate" />No</label> <br>
+                    <label>
+                    <p class="bold">Any further request? </p> <br>
+                    <textarea rows="20" cols="100" maxLength="200"></textarea>
+                    </label>
+                    <br><br>
+                    <input type="submit" value="Go To Checkout" />
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p class="final">Made with love by jBoy2m05</p>
+    </footer>
+</body>
+</html>

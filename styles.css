@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h2, h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #cb3737;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    
+}
+
+#ramen_name {
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-right: 10%;
+}
+
+#navbar {
+    display: flex;
+    gap: 80px;
+}
+
+.navigation {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+main {
+    padding: 20px 15%;
+}
+
+
+
+.foods article {
+    width: 48%;
+}
+
+.ramen_img {
+    width: 100%;
+    height: 450px;
+}
+
+.foods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.food-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 25px;
+    color: red;
+}
+
+figcaption h3 {
+    text-align: center;
+}
+
+.food-menu figure {
+    width: 100%;
+}
+
+input, textarea {
+    border-radius: 5px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #cb3737;
+    padding: 45px;
+}
+
+.final {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+}
