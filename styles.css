@@ -102,3 +102,10 @@ footer {
     font-size: 30px;
     font-family: monospace;
 }
+
+.gitHubLink {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+
+}
